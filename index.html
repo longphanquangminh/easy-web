@@ -5,29 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Web World</title>
+    <style>
+        #frontendCourses{
+            background-color: yellowgreen;
+        }
+        #backendCourses{
+            background-color: aquamarine;
+        }
+    </style>
 </head>
 <body>
-    <h2>Welcome to CodeGym Day</h2>
+    <h2 style="text-align: center;">Welcome to CodeGym Day</h2>
 
-    <hr size="5px" allign="center" width="50%" background-color="red"/>
+    <hr size="5px" align="center" width="50%" style="background-color: red;"/>
     
-    <div>
-        <div style="background-color: blue; color:white;">
-            <h1>Đây là danh sách các khóa học Frontend</h1>
-            <h2>ReactJS</h2>
-            <h2>Angular</h2>
-            <h2>VueJS</h2>
+    <div id="frontendCourses">
+        <h1 style="background-color: red; color:white;">Các khóa học Frontend</h1>
+        <div>
+            ReactJS<br>
+            Angular<br>
+            VueJS
         </div>
     </div>
-    <div>
-        <div style="background-color: red; color:white;">
-            <h1>Đây là danh sách các khóa học Backend</h1>
-            <div style="background-color: purple; color:white;">
-                <h2>Backend Java</h2>
-            </div>
-            <div style="background-color: green; color:white;">
-                <h2>Backend PHP</h2>
-            </div>
+    <div id="backendCourses">
+        <h1 style="background-color: blue; color:white;">Các khóa học Backend</h1>
+        <div>
+            Java<br>
+            NodeJS<br>
+            PHP
         </div>
     </div>
 </body>
